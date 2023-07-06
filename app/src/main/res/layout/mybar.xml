@@ -21,5 +21,4 @@
         android:textSize="30dp"
         android:typeface="serif"/>
 
-
 </androidx.appcompat.widget.Toolbar>
