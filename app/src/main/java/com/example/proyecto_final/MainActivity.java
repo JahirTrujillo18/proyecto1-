@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
         botonlogin.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                if (user.getText().toString().equals("user") && pass.getText().toString().equals("123")) {
+                if (user.getText().toString().equals("jahir@") && pass.getText().toString().equals("73948158")) {
 
                     Intent intent = new Intent(MainActivity.this,MainActivity2.class);
 
@@ -42,7 +42,7 @@ public class MainActivity extends Activity {
 
                 }
                 else {
-                    Toast.makeText(MainActivity.this, "Credenciales incorrectas", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, "Usuario incorrecto", Toast.LENGTH_LONG).show();
                 }
             }
 

@@ -6,14 +6,14 @@
     android:layout_height="match_parent"
     android:background="@color/verdeclaro"
     android:onClick="onClick"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity">
 
     <Button
         android:id="@+id/boton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#03A9F4"
-        android:onClick="ir"
+        android:onClick="onClick"
         android:text="Ingresar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
