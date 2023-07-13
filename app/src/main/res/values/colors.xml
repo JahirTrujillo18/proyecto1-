@@ -6,4 +6,9 @@
     <color name="amarillo">#FFC300</color>
     <color name="violeta">#581845 </color>
     <color name="verdeclaro">#DAF7A6</color>
+    <color name="moradoClaro">#8E44AD</color>
+    <color name="azulClaro">#44ADAB </color>
+    <color name="celeste">#04C7FB </color>v
+    <color name="azulOscuro">#34495E </color>
+
 </resources>

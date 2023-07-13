@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:onClick="onClick"
+    tools:context=".Horario">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            >
+
+
+            <EditText
+                android:id="@+id/usuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:ems="10"
+                android:hint="usuario"
+                android:inputType="text"
+                android:text=""
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                app:layout_constraintBottom_toTopOf="@+id/contraseña"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.707" />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp">
+
+            <EditText
+                android:id="@+id/contraseña"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:ems="10"
+                android:hint="contraseña"
+                android:inputType="textPassword"
+                android:text=""
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                app:layout_constraintBottom_toTopOf="@+id/boton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/boton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#8E44AD"
+            android:onClick="onClick"
+            android:text="Ingresar"
+            android:layout_margin="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.631" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Si no tienes una cuenta."
+            android:textColor="@color/white"
+            android:layout_marginRight="5dp"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTRATE AQUI"
+            android:textColor="@color/white"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+
+
+    <include
+        android:id="@+id/myToolbar"
+        layout="@layout/mybar" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
