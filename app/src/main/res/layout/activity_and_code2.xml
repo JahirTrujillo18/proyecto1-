@@ -83,7 +83,7 @@
         android:drawableLeft="@drawable/baseline_punch_clock_24"
         android:hint="Horas de clase"
         android:importantForAutofill="no"
-        android:inputType="text"
+        android:inputType="time"
         android:minHeight="48dp"
         android:textColorHint="@color/white"
         app:layout_constraintStart_toStartOf="parent"

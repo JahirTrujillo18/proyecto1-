@@ -35,7 +35,7 @@ public class Horario extends Activity {
             public void onClick(View view) {
                 if (user.getText().toString().equals("jahir@") && pass.getText().toString().equals("73948158")) {
 
-                    Intent intent = new Intent(Horario.this,AndCode2.class);
+                    Intent intent = new Intent(Horario.this,MainActivity3.class);
 
                     startActivity(intent);
 
